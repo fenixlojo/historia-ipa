@@ -27,8 +27,9 @@ function Navbar() {
             color="inherit"
             aria-label="menu"
             sx={{ mr: 2 }}
+            onClick={handleOpenUserMenu}
           >
-            <MenuIcon onClick={handleOpenUserMenu} />
+            <MenuIcon />
           </IconButton>
           <Menu
             sx={{ mt: "45px" }}
@@ -51,7 +52,7 @@ function Navbar() {
             </MenuItem>
           </Menu>
           <Typography variant="h6" color="inherit" component="div">
-            Photos
+            Menu
           </Typography>
         </Toolbar>
       </AppBar>
