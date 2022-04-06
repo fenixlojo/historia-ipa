@@ -27,7 +27,7 @@ function Main() {
             item.titulo.toLowerCase().includes(filter.toLowerCase())
         )
         .map((item, i) => (
-          <Paper sx={{ margin: "2rem" }} key={i} elevation={1}>
+          <Paper sx={{ margin: "2rem" }} key={i} elevation={3}>
             <Box p={2}>
               <Typography
                 variant="body1"
