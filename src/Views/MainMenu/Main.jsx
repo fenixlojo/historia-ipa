@@ -22,7 +22,9 @@ function Main() {
       />
       {documentos
         .filter(
-          (item) => item.autor.includes(filter) || item.titulo.includes(filter)
+          (item) =>
+            item.autor.toLowerCase().includes(filter.toLowerCase()) ||
+            item.titulo.toLowerCase().includes(filter.toLowerCase())
         )
         .map((item, i) => (
           <Paper sx={{ margin: "2rem" }} key={i} elevation={1}>
