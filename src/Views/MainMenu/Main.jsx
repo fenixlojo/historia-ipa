@@ -36,7 +36,7 @@ function Main() {
                   textTransform: "uppercase",
                 }}
               >
-                {item.titulo}
+                {item.titulo.replace("_", " ")}
               </Typography>
               <Divider
                 sx={{
