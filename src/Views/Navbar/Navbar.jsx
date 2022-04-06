@@ -2,22 +2,22 @@ import React from "react";
 import {
   Box,
   Typography,
-  Toolbar,
+  // Toolbar,
   AppBar,
-  Menu,
-  MenuItem,
+  // Menu,
+  // MenuItem,
 } from "@mui/material";
-import IconButton from "@mui/material/IconButton";
-import MenuIcon from "@mui/icons-material/Menu";
+// import IconButton from "@mui/material/IconButton";
+// import MenuIcon from "@mui/icons-material/Menu";
 
 function Navbar() {
-  const [anchorElUser, setAnchorElUser] = React.useState(null);
-  const handleCloseUserMenu = () => {
-    setAnchorElUser(null);
-  };
-  const handleOpenUserMenu = (event) => {
-    setAnchorElUser(event.currentTarget);
-  };
+  // const [anchorElUser, setAnchorElUser] = React.useState(null);
+  // const handleCloseUserMenu = () => {
+  //   setAnchorElUser(null);
+  // };
+  // const handleOpenUserMenu = (event) => {
+  //   setAnchorElUser(event.currentTarget);
+  // };
   return (
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static">
