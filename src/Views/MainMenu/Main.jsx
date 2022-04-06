@@ -25,7 +25,7 @@ function Main() {
           (item) => item.autor.includes(filter) || item.titulo.includes(filter)
         )
         .map((item, i) => (
-          <Paper key={i} elevation={1}>
+          <Paper sx={{ margin: "2rem" }} key={i} elevation={1}>
             <Box p={2}>
               <Typography
                 variant="body1"
