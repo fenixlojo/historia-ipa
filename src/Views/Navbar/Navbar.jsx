@@ -21,7 +21,7 @@ function Navbar() {
   return (
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static">
-        <Toolbar variant="dense">
+        {/* <Toolbar variant="dense">
           <IconButton
             edge="start"
             color="inherit"
@@ -54,7 +54,15 @@ function Navbar() {
           <Typography variant="h6" color="inherit" component="div">
             Menu
           </Typography>
-        </Toolbar>
+        </Toolbar> */}
+        <Typography
+          variant="h6"
+          sx={{ textAlign: "start", margin: "0.25rem 0 0.25rem 2rem" }}
+          color="inherit"
+          component="div"
+        >
+          Materiales de historia
+        </Typography>
       </AppBar>
     </Box>
   );
