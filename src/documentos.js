@@ -45,6 +45,26 @@ const documentos = [
     titulo: "Con lo mínimo: los debates sobre el poblamiento de América del Sur",
     autor: "Luis A. Borrero",
   },
+  {
+    url: "https://drive.google.com/file/d/1btfCQZCu6AHaHkcElSno4CEgQ4O71OUi/view?usp=sharing",
+    titulo: "¿Qué es la historia?",
+    autor: "E.H. Carr",
+  },
+  {
+    url: "https://drive.google.com/file/d/1jzdpyD1hyxDCICbjFlnvn20Cn59XDQy6/view?usp=sharing",
+    titulo: "Apología para la historia o el oficio de historiador",
+    autor: "Marc Bloch",
+  },
+  {
+    url: "https://drive.google.com/file/d/1DGa_R4TpWJ_82Xt66VxWR08CmYw1gQmu/view?usp=sharing",
+    titulo: "El oficio de historiador",
+    autor: "Enrique Moradiellos",
+  },
+  {
+    url: "https://drive.google.com/file/d/1vCcT5c91Wz097zn-90djHv4tGkVZ7rAw/view?usp=sharing",
+    titulo: "Pensar la historia",
+    autor: "Jacques Le Goff",
+  },
 ];
 
 export default documentos;
