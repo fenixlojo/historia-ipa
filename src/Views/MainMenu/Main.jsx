@@ -20,6 +20,21 @@ function Main() {
         onChange={(e) => setFilter(e.target.value)}
         sx={{ margin: "3rem 0 3rem 0" }}
       />
+      {documentos.filter(
+        (item) =>
+          item.autor.toLowerCase().includes(filter.toLowerCase()) ||
+          item.titulo.toLowerCase().includes(filter.toLowerCase())
+      ).length === 0 && (
+        <Typography
+          variant="body1"
+          fontWeight="bold"
+          sx={{
+            textTransform: "uppercase",
+          }}
+        >
+          No hay coincidencias con la busqueda
+        </Typography>
+      )}
       {documentos
         .filter(
           (item) =>

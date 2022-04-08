@@ -40,6 +40,11 @@ const documentos = [
     titulo: "Prehistoria Las primeras etapas de la humanidad",
     autor: "Sergio Ripoll López",
   },
+  {
+    url: "https://drive.google.com/file/d/1-GNR7dtz832KMsuJVSaGiyCzKWg3LbE7/view?usp=sharing",
+    titulo: "Con lo mínimo: los debates sobre el poblamiento de América del Sur",
+    autor: "Luis A. Borrero",
+  },
 ];
 
 export default documentos;
