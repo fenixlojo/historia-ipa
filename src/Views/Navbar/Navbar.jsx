@@ -15,7 +15,7 @@ function Navbar() {
         position="static"
       >
         <Typography
-          variant="h6"
+          variant="h5"
           sx={{ textAlign: "start", margin: "0.25rem 0 0.25rem 2rem" }}
           color="inherit"
           component="div"

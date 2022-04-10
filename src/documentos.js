@@ -65,6 +65,11 @@ const documentos = [
     titulo: "Pensar la historia",
     autor: "Jacques Le Goff",
   },
+  {
+    url: "https://drive.google.com/file/d/1ffa8LPmqXiunXyNbQSgX-t2PaN-MWayh/view?usp=sharing",
+    titulo: "El curriculum: Más allá de una teoría de la reproducción",
+    autor: "Stephen Kemmis",
+  },
 ];
 
 export default documentos;
