@@ -85,6 +85,26 @@ const documentos = [
     titulo: "La civilizacion Maya Yucateca",
     autor: "Sergio Quezada , Antony P.Andrews",
   },
+  {
+    url: "https://drive.google.com/file/d/1lxTRvB1CI4FOVQpLlRbu5N3CRHhana5F/view?usp=sharing",
+    titulo: "Imperio Mexica de la triple alianza",
+    autor: "Prof. Dr. (Cand). Pablo Camps Umpiérrez",
+  },
+  {
+    url: "https://drive.google.com/file/d/1nIx5fx80G-Cl5Ry5iV135JbRUZvOT_pN/view?usp=sharing",
+    titulo: "La cultura maya",
+    autor: "Prof. Dr. (Cand). Pablo Camps Umpiérrez",
+  },
+  {
+    url: "https://drive.google.com/file/d/1Y5JnpKQcaghwvH954c1fJOTrNg6sDtDi/view?usp=sharing",
+    titulo: "La civilizacion Maya en la historia regional mesoamericana",
+    autor: "Lorenzo Ochoa",
+  },
+  {
+    url: "https://drive.google.com/file/d/1QuGj2Dhs9MGV-kfSzlC4DR-X21T47wwe/view?usp=sharing",
+    titulo: "EL SISTEMA DE DOMINACIÓN AZTECA: EL IMPERIO TEPANECA",
+    autor: "Carlos Santamarina Novillo",
+  },
 ];
 
 export default documentos;
