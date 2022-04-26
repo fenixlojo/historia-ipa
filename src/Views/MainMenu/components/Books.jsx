@@ -15,7 +15,7 @@ function Books({ show }) {
                 textTransform: "uppercase",
               }}
             >
-              {item.titulo.replace("_", " ")}
+              {item.titulo.replaceAll("_", " ")}
             </Typography>
             <Divider
               sx={{
