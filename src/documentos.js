@@ -70,6 +70,21 @@ const documentos = [
     titulo: "El curriculum: Más allá de una teoría de la reproducción",
     autor: "Stephen Kemmis",
   },
+  {
+    url: "https://drive.google.com/file/d/1DNTMjweeOJWsufeqJW_5TnWh1_Fm_anR/view?usp=sharing",
+    titulo: "Historia de America Latina",
+    autor: "Leslie Bethell",
+  },
+  {
+    url: "https://drive.google.com/file/d/1zzKagDwUY6Xt8QlVz71y3RiDi8xFmGSL/view?usp=sharing",
+    titulo: "La civilizacion Maya Yucateca",
+    autor: "Sergio Quezada , Antony P.Andrews",
+  },
+  {
+    url: "https://drive.google.com/file/d/1zzKagDwUY6Xt8QlVz71y3RiDi8xFmGSL/view?usp=sharing",
+    titulo: "La civilizacion Maya Yucateca",
+    autor: "Sergio Quezada , Antony P.Andrews",
+  },
 ];
 
 export default documentos;
