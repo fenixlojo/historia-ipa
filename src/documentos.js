@@ -105,6 +105,32 @@ const documentos = [
     titulo: "EL SISTEMA DE DOMINACIÓN AZTECA: EL IMPERIO TEPANECA",
     autor: "Carlos Santamarina Novillo",
   },
+  {
+    url: "https://drive.google.com/file/d/1YOYFoeR4MMO9jA1uAxp6kocuQ5TEjDxo/view?usp=sharing",
+    titulo: "La ciencía, su filosofia y su estudio",
+    autor: "Mario Bunge",
+  },
+  {
+    url: "https://drive.google.com/file/d/1d5ym655GG7IZKbIBtnV9hawclPAxh9Sa/view?usp=sharing",
+    titulo: "La epistemologia",
+    autor: "Mario Bunge",
+  },
+  {
+    url: "https://drive.google.com/file/d/1zGZB6wLffUnVbY69MeNtRdGRgvBkQjHr/view?usp=sharing",
+    titulo: "La ideologia alemana",
+    autor: "Carl Marx , Engels",
+  },
+  {
+    url: "https://drive.google.com/file/d/1vmzgJXKeHkIQsx8r8rO8SACK6pNSTNO9/view?usp=sharing",
+    titulo: "La division del trabajo social",
+    autor: "Emilie Durkheim",
+  },
+  {
+    url: "https://drive.google.com/file/d/15HZl5G1QIBAmYrN6nLkPDBrnHnHjXxl9/view?usp=sharing",
+    titulo: "las reglas del metodo sociologico",
+    autor: "Emilie Durkheim",
+  },
 ];
+
 
 export default documentos;
