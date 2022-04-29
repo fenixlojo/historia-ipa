@@ -127,8 +127,23 @@ const documentos = [
   },
   {
     url: "https://drive.google.com/file/d/15HZl5G1QIBAmYrN6nLkPDBrnHnHjXxl9/view?usp=sharing",
-    titulo: "las reglas del metodo sociologico",
+    titulo: "Las reglas del metodo sociologico",
     autor: "Emilie Durkheim",
+  },
+  {
+    url: "https://drive.google.com/file/d/1a0EN6ksVdmCIjP9RIDr3tmPMufxHOlTK/view?usp=sharing",
+    titulo: "Palabras mas , palabras menos",
+    autor: "Maria Cristina Dutto",
+  },
+  {
+    url: "https://drive.google.com/file/d/1P57wD_InISmDClQZBKMZsQFSV5AHH-8_/view?usp=sharing",
+    titulo: "Los generos discursivos",
+    autor: "Felipe Zayas",
+  },
+  {
+    url: "https://drive.google.com/file/d/1WB1l2g2eRNkwy1Dq9xngZXvWVtKzk-4D/view?usp=sharing",
+    titulo: "Guía para la correción y autocorreción de producciones escritas",
+    autor: "Oroño y Lucian",
   },
 ];
 
