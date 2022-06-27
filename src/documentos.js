@@ -145,6 +145,11 @@ const documentos = [
     titulo: "Guía para la correción y autocorreción de producciones escritas",
     autor: "Oroño y Lucian",
   },
+  {
+    url: "https://drive.google.com/file/d/1e7080xwUa5FsvQeaViQZIxNciKjdqjm2/view?usp=sharing",
+    titulo: "Resumen Primer Parcial Historia Antigua. Mesopotamia",
+    autor: "Joaquin Córdoba",
+  },
 ];
 
 
