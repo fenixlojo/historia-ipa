@@ -16,6 +16,7 @@ function Main() {
       )
     );
   }, [filter]);
+  
   return (
     <Box sx={{ minHeight: "1000px" }}>
       <TextField
