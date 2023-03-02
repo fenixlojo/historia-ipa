@@ -40,7 +40,10 @@ function Books({ show }) {
                       "linear-gradient(to right bottom, #2b1bb5, #1cc2ff)",
                   }}
                   startIcon={<RemoveRedEyeIcon />}
-                  onClick={() => window.open(item.url, "_blank")}
+                  onClick={() => {
+                    window.dataLayer.push({ event: "ABRIO_LIBRO" });
+                    window.open(item.url, "_blank");
+                  }}
                   disabled={!item.url || item.url === ""}
                 >
                   Ver pdf
