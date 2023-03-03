@@ -4,6 +4,7 @@ import Books from "./components/Books";
 import documentos from "../../documentos";
 
 function Main() {
+  window.dataLayer.push({ event: "MAIN" });
   const [filter, setFilter] = React.useState("");
   const [show, setShow] = React.useState([]);
 
@@ -16,7 +17,7 @@ function Main() {
       )
     );
   }, [filter]);
-  
+
   return (
     <Box sx={{ minHeight: "1000px" }}>
       <TextField
