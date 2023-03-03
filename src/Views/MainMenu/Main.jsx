@@ -4,11 +4,11 @@ import Books from "./components/Books";
 import documentos from "../../documentos";
 
 function Main() {
-  window.dataLayer.push({ event: "MAIN" });
   const [filter, setFilter] = React.useState("");
   const [show, setShow] = React.useState([]);
 
   React.useEffect(() => {
+    window.dataLayer.push({ event: "CHANGE_FILTRO" });
     setShow(
       documentos.filter(
         (item) =>
